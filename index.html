@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR TOP UP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SR TOP UP</h1>
+        <form id="orderForm">
+            <label for="gameId">Game ID:</label>
+            <input type="text" id="gameId" name="gameId" required>
+
+            <label for="package">Select Package:</label>
+            <select id="package" name="package" required>
+                <option value="">-- Select Package --</option>
+                <option>25 Diamond 💎</option>
+                <option>50 Diamond 💎</option>
+                <option>100 Diamond 💎</option>
+                <option>115 Diamond 💎</option>
+                <option>Weekly</option>
+                <option>Monthly</option>
+            </select>
+
+            <button type="submit">Place Order</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
